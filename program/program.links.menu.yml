@@ -1,0 +1,5 @@
+entity.program.collection:
+  title: 'program'
+  parent: system.admin_config_system
+  description: 'Configure program'
+  route_name: entity.program.collection

@@ -1,0 +1,31 @@
+entity.program.collection:
+  path: '/admin/config/system/program'
+  defaults:
+    _entity_list: 'program'
+    _title: 'program configuration'
+  requirements:
+    _permission: 'administer site configuration'
+
+entity.program.add_form:
+  path: '/admin/config/system/program/add'
+  defaults:
+    _entity_form: 'program.add'
+    _title: 'Add program'
+  requirements:
+    _permission: 'administer site configuration'
+
+entity.program.edit_form:
+  path: '/admin/config/system/program/{program}'
+  defaults:
+    _entity_form: 'program.edit'
+    _title: 'Edit program'
+  requirements:
+    _permission: 'administer site configuration'
+
+entity.program.delete_form:
+  path: '/admin/config/system/program/{program}/delete'
+  defaults:
+    _entity_form: 'program.delete'
+    _title: 'Delete program'
+  requirements:
+    _permission: 'administer site configuration'
